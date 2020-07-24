@@ -110,21 +110,21 @@ app.put("/api/products/:id", (request, response) => {
 // DELETE EXISTING PRODUCTS BY ID
 // DELETE /api/products/:id
 app.delete("/api/products/:id", (request, response) => {
-const productId = Number(request.params.id);
-const productIndex = products.findIndex((p) => {
+  const productId = Number(request.params.id);
+  const productIndex = products.findIndex((p) => {
     return productId === p.id;
-});
-if(productIndex === -1) {
-    response.send(`Product with ID ${productId} not found!`)
+  });
+  if (productIndex === -1) {
+    response.send(`Product with ID ${productId} not found!`);
     return;
-}
-products.splice(productIndex, 1);
+  }
+  products.splice(productIndex, 1);
 
-const jsonPayload = {
+  const jsonPayload = {
     products: products,
-};
-fs.writeFileSync("products.json", JSON.stringify(jsonPayload));
-response.send()
+  };
+  fs.writeFileSync("products.json", JSON.stringify(jsonPayload));
+  response.send();
 });
 // Starting my server
 const port = process.env.PORT ? process.env.PORT : 3000;
