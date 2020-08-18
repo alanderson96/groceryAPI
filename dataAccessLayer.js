@@ -142,40 +142,40 @@ const deleteOne = function (query) {
 /* ~~~~~~~~~~~~~~~~~~~~~~~ */
 // TESTS
 module.exports = { connect, insertOne, findAll, findOne, updateOne, deleteOne };
-(async () => {
-  // Run `node dataAccessLayer.js`
-  //await connect();
-  //TEST insertOne()
-  // const newProduct = {
-  //  name: "Honey Crisp Apples",
-  //  price: 4.99,
-  //  category: "produce",
-  //};
-  //await insertOne(newProduct);
-  //TEST findall()
-  //const products = await findAll();
-  //console.log(products);
-  //TEST findOne()
-  //const productQuery = {
-  // _id: new ObjectId("5f20e14d17f59967c8b0c9d5")
-  // name: "Honey Crisp Apples"
-  // };
-  // const product = await findOne(productQuery);
-  //console.log(product);
-  //TEST updateOne()
-  // productQuery = {
-  //   _id: new ObjectId("5f20e14d17f59967c8b0c9d5"),
-  // };
-  // const newProduct = {
-  //  name: "Crunchy Peanut Butter",
-  // price: 9.99,
-  //  };
-  // await updateOne(productQuery, newProduct);
-  //TEST deleteOne()
-  //const productQuery = {
-  //  _id: new ObjectId("5f20e14d17f59967c8b0c9d5"),
-  // };
-  // await deleteOne(productQuery);
-  //console.log("END");
-  //process.exit(0);
-})();
+// (async () => {
+// Run `node dataAccessLayer.js`
+//await connect();
+//TEST insertOne()
+// const newProduct = {
+//  name: "Honey Crisp Apples",
+//  price: 4.99,
+//  category: "produce",
+//};
+//await insertOne(newProduct);
+//TEST findall()
+//const products = await findAll();
+//console.log(products);
+//TEST findOne()
+//const productQuery = {
+// _id: new ObjectId("5f20e14d17f59967c8b0c9d5")
+// name: "Honey Crisp Apples"
+// };
+// const product = await findOne(productQuery);
+//console.log(product);
+//TEST updateOne()
+// productQuery = {
+//   _id: new ObjectId("5f20e14d17f59967c8b0c9d5"),
+// };
+// const newProduct = {
+//  name: "Crunchy Peanut Butter",
+// price: 9.99,
+//  };
+// await updateOne(productQuery, newProduct);
+//TEST deleteOne()
+//const productQuery = {
+//  _id: new ObjectId("5f20e14d17f59967c8b0c9d5"),
+// };
+// await deleteOne(productQuery);
+//console.log("END");
+//process.exit(0);
+// })();
