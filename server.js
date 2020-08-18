@@ -42,18 +42,15 @@ app.get("/api/products", async (request, response) => {
 // Get /api/products { id: 123, name: 'apples', price: 1.99}
 app.get("/api/products/:id", async (request, response) => {
   const productId = request.params.id;
-if(!ObjectID.isValid(productId)) {
-  response
-  .status(400)
-  .send(`Product ID ${productId} cannot be found.`
-  );
-  return;
-}
+  if (!ObjectID.isValid(productId)) {
+    response.status(400).send(`Product ID ${productId} cannot be found.`);
+    return;
+  }
   const productQuery = {
     _id: new ObjectId(productId),
   };
   let product;
-  
+
   try {
     product = await dataAccessLayer.findOne(productQuery);
   } catch (error) {
@@ -80,15 +77,17 @@ app.post("/api/products", async (request, response) => {
     return;
   }
   if (typeof body.name !== "string") {
-    response.status(400).send("The name parameter must be of type string")
+    response.status(400).send("The name parameter must be of type string");
     return;
   }
   if (typeof body.category !== "string") {
-    response.status(400).send("The category parameter must be of type string")
-  return;
+    response.status(400).send("The category parameter must be of type string");
+    return;
   }
-  if(body.price && isNaN(Number(body.price))) {
-    response.status(400).send("The price must be of type price and greater than 0")
+  if (body.price && isNaN(Number(body.price))) {
+    response
+      .status(400)
+      .send("The price must be of type price and greater than 0");
   }
 
   await dataAccessLayer.insertOne(body);
@@ -99,39 +98,29 @@ app.post("/api/products", async (request, response) => {
 app.put("/api/products/:id", async (request, response) => {
   const productId = request.params.id;
   const body = request.body;
-  if(!ObjectID.isValid(productId)) {
-    response
-    .status(400)
-    .send(`Product ID ${productId} cannot be found.`
-    );
-    
+  if (!ObjectID.isValid(productId)) {
+    response.status(400).send(`Product ID ${productId} cannot be found.`);
   }
 
   const productQuery = {
     _id: new ObjectId(productId),
   };
   try {
-      await dataAccessLayer.updateOne(productQuery, body);
+    await dataAccessLayer.updateOne(productQuery, body);
   } catch (error) {
-    response.status(404)
-    .send(`Product with ID ${productId} not found!`);
-  return;
+    response.status(404).send(`Product with ID ${productId} not found!`);
+    return;
   }
-  
-   
-  
-  response.send();  
+
+  response.send();
 });
 
 // DELETE EXISTING PRODUCTS BY ID
 // DELETE /api/products/:id
 app.delete("/api/products/:id", async (request, response) => {
   const productId = request.params.id;
-  if(!ObjectID.isValid(productId)) {
-    response
-    .status(400)
-    .send(`Product ID ${productId} cannot be found.`
-    );
+  if (!ObjectID.isValid(productId)) {
+    response.status(400).send(`Product ID ${productId} cannot be found.`);
     return;
   }
   const productQuery = {
@@ -143,12 +132,11 @@ app.delete("/api/products/:id", async (request, response) => {
     response.status(404).send(`Product with ID ${productId} not found!`);
     return;
   }
-  
 
   response.send();
 });
 // Starting my server
-const port = process.env.PORT ? process.env.PORT : 3000;
+const port = process.env.PORT ? process.env.PORT : 3005;
 app.listen(port, () => {
   console.log("Grocery API Server Started!");
 });

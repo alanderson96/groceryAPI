@@ -1,0 +1,713 @@
+[{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbe9e1"
+  },
+  "name": "Bananas",
+  "price": "300",
+  "category": "produce",
+  "imageUrl": "9a742d17-6f93-4281-92fb-b225e334077e.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbe9e2"
+  },
+  "name": "Milk",
+  "price": 3.38,
+  "category": "dairy",
+  "imageUrl": "a879b682-615b-426f-92e9-57a06d8a02dc.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbe9e3"
+  },
+  "name": "Whole Chicken",
+  "price": 4.99,
+  "category": "meat",
+  "imageUrl": "12c33940-e8d5-46f9-8e1c-6aefbb1597ce.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbe9e4"
+  },
+  "name": "Eggs",
+  "price": 1.19,
+  "category": "dairy",
+  "imageUrl": "65491ac5-0449-43bc-98b0-43105bbd737c.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbe9e5"
+  },
+  "name": "Apples",
+  "price": 1.39,
+  "category": "produce",
+  "imageUrl": "46c11ad6-fa22-4574-bfa6-3910a30c2545.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbe9e6"
+  },
+  "name": "Cheerios",
+  "price": 3.64,
+  "category": "grains",
+  "imageUrl": "996c4331-7cc8-4488-bd3e-1c4f8e5526e3.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbe9e7"
+  },
+  "name": "DiGiorno Pizza",
+  "price": 5,
+  "category": "frozenFoods",
+  "imageUrl": "0064fca5-c4c5-4012-8611-fd71100616c9.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbe9e8"
+  },
+  "name": "Bread",
+  "price": 2.78,
+  "category": "bakery",
+  "imageUrl": "ba64985e-59c9-44b7-a509-37d7c139826f.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbe9e9"
+  },
+  "name": "Butter",
+  "price": 2.98,
+  "category": "dairy",
+  "imageUrl": "bc31068c-963a-413d-845c-bc1ae0696647.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbe9ea"
+  },
+  "name": "Cucumber",
+  "price": 0.68,
+  "category": "produce",
+  "imageUrl": "6503c06d-40d0-4072-85f5-2b1f3a2f4743.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbe9eb"
+  },
+  "name": "Sour Cream",
+  "price": 2.64,
+  "category": "dairy",
+  "imageUrl": "460617d6-7923-474f-b13e-7278ebef53e8.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbe9ec"
+  },
+  "name": "Ground Beef",
+  "price": 7.48,
+  "category": "meat",
+  "imageUrl": "eefdb8e1-a178-4934-a1bb-fd405bb2e9cd.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbe9ed"
+  },
+  "name": "Green Bell Pepper",
+  "price": 0.68,
+  "category": "produce",
+  "imageUrl": "e8162392-25ba-46d2-8dbc-42a9e58bfda8.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbe9ee"
+  },
+  "name": "Iceberg Lettuce",
+  "price": 1.98,
+  "category": "produce",
+  "imageUrl": "6948adf8-902a-4de2-bdb6-214eb411fe11.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbe9ef"
+  },
+  "name": "Broccoli",
+  "price": 1.88,
+  "category": "produce",
+  "imageUrl": "d5b86293-ab40-4a43-ade9-598296a2d5ab.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbe9f0"
+  },
+  "name": "Tomatos",
+  "price": 1.68,
+  "category": "produce",
+  "imageUrl": "ee281803-8157-4715-8689-9555c7eb227d.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbe9f1"
+  },
+  "name": "Creamcheese",
+  "price": 1.96,
+  "category": "dairy",
+  "imageUrl": "849c3a8b-4413-4ede-b856-0bd2c9581b32.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbe9f2"
+  },
+  "name": "Hass Avocados",
+  "price": 0.88,
+  "category": "produce",
+  "imageUrl": "166b8927-9a46-4562-ad1c-f6a2268b8be1.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbe9f3"
+  },
+  "name": "Strawberries",
+  "price": 2.17,
+  "category": "produce",
+  "imageUrl": "562ee60b-1889-4ee9-b1a8-b6f4c8908cce.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbe9f4"
+  },
+  "name": "Lemon",
+  "price": 0.64,
+  "category": "produce",
+  "imageUrl": "15420756-e068-412c-be78-5459655f598a.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbe9f5"
+  },
+  "name": "Grapes",
+  "price": 2.98,
+  "category": "produce",
+  "imageUrl": "9eb901b6-41a0-4719-b6a3-7310cf5cf254.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbe9f6"
+  },
+  "name": "Lime",
+  "price": 0.33,
+  "category": "produce",
+  "imageUrl": "8b45848e-852f-4104-8dbb-20b0095bc509.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbe9f7"
+  },
+  "name": "Manwich Sloppy Joe",
+  "price": null,
+  "category": "canned",
+  "imageUrl": "87310010-4cd4-4a3b-ab12-a9cf17cbace3.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbe9f8"
+  },
+  "name": "Milk Duds",
+  "price": 0.98,
+  "category": "candyAndSnacks",
+  "imageUrl": "2c29f2bf-da22-4ae3-8627-f2e2f9b41c46.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbe9f9"
+  },
+  "name": "Sour Patch Kids",
+  "price": 0.98,
+  "category": "candyAndSnacks",
+  "imageUrl": "cb3adcd0-e37c-406a-ad8e-9843fb7269f2.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbe9fa"
+  },
+  "name": "Swedish Fish",
+  "price": 4.98,
+  "category": "candyAndSnacks",
+  "imageUrl": "5a1f9a57-f04a-4d61-a231-9cc350a35db2.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbe9fb"
+  },
+  "name": "Snickers",
+  "price": 0.78,
+  "category": "candyAndSnacks",
+  "imageUrl": "c7fccb3c-315f-414a-9692-7a13fd79670c.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbe9fc"
+  },
+  "name": "Jolly Rancher",
+  "price": 2.48,
+  "category": "candyAndSnacks",
+  "imageUrl": "ed1f430a-1cb0-4b70-be7e-9f7084947790.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbe9fd"
+  },
+  "name": "Twix",
+  "price": 4.88,
+  "category": "candyAndSnacks",
+  "imageUrl": "c75e0983-6869-4743-bc5d-d0a91b9ca48d.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbe9fe"
+  },
+  "name": "Orange Juice",
+  "price": 5.58,
+  "category": "beverages",
+  "imageUrl": "914a5569-c5be-4389-a975-24668a5218e3.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbe9ff"
+  },
+  "name": "Caprisun",
+  "price": 2.22,
+  "category": "beverages",
+  "imageUrl": "0d1bf36f-ab8b-4f38-b48b-ce3666744b9c.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea00"
+  },
+  "name": "Coca-Cola",
+  "price": 8.18,
+  "category": "beverages",
+  "imageUrl": "edab7628-4355-4099-ba04-eb03d06f4319.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea01"
+  },
+  "name": "Mountain Dew",
+  "price": 4.98,
+  "category": "beverages",
+  "imageUrl": "2d11d5f6-b43b-4aad-9674-99dd3cfcf1c0.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea02"
+  },
+  "name": "Pineapple Juice",
+  "price": 2.77,
+  "category": "beverages",
+  "imageUrl": "f9191489-e0e9-4ee8-84d6-2d01e105e91d.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea03"
+  },
+  "name": "Cranberry Juice",
+  "price": 3.12,
+  "category": "beverages",
+  "imageUrl": "bc6dbe31-fc89-44ea-93c6-d4102916fd85.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea04"
+  },
+  "name": "Iced Tea",
+  "price": 3.78,
+  "category": "beverages",
+  "imageUrl": "8cf31fbe-692a-4319-aa56-3b1b27aac1ba.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea05"
+  },
+  "name": "Pot Pie",
+  "price": 0.94,
+  "category": "frozenFoods",
+  "imageUrl": "6149e2ec-c587-43c1-9ca4-068bf1094235.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea06"
+  },
+  "name": "Macaroni & Cheese",
+  "price": 10.78,
+  "category": "frozenFoods",
+  "imageUrl": "4ddf0007-049a-4929-b43f-ad20cff11fd9.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea07"
+  },
+  "name": "Red Baron Pizza",
+  "price": 3.5,
+  "category": "frozenFoods",
+  "imageUrl": "7d739ab1-f0ea-4040-bf2f-6daba479031a.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea08"
+  },
+  "name": "Tombstone Pizza",
+  "price": 3.28,
+  "category": "frozenFoods",
+  "imageUrl": "44b563e4-1e34-42a5-8fe5-dd2f0045dcad.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea09"
+  },
+  "name": "Southern Pecan Pie",
+  "price": 5.97,
+  "category": "frozenFoods",
+  "imageUrl": "a22a9d73-3378-4ce4-bebc-f9cb90fb4aae.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea0a"
+  },
+  "name": "Beef and Bean Burritos",
+  "price": 3.42,
+  "category": "frozenFoods",
+  "imageUrl": "2d6d58d9-9f38-4c78-a23a-bec630d734c2.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea0b"
+  },
+  "name": "Sweet Potatos Fries",
+  "price": 2.76,
+  "category": "frozenFoods",
+  "imageUrl": "67a0658d-25d6-425e-b265-d205f5d42a21.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea0c"
+  },
+  "name": "Chocolate Chunk Cookies",
+  "price": 2.78,
+  "category": "bakery",
+  "imageUrl": "27b6ffba-2dc6-4d2a-9e47-53bbca42d108.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea0d"
+  },
+  "name": "Strawberry Swirl Cheesecake",
+  "price": 5.98,
+  "category": "bakery",
+  "imageUrl": "b5f667f5-63c9-431d-bb3b-d7f97fa7fd36.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea0e"
+  },
+  "name": "Pumpkin Pie",
+  "price": 3.98,
+  "category": "bakery",
+  "imageUrl": "b6f914fe-a9a4-450a-86af-40159ab2e66e.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea0f"
+  },
+  "name": "Hoagie Buns",
+  "price": 3.24,
+  "category": "bakery",
+  "imageUrl": "b675b790-8a07-45fe-a919-7e6198e05e4b.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea10"
+  },
+  "name": "Hot Dogs Buns",
+  "price": 1.98,
+  "category": "bakery",
+  "imageUrl": "f00fdfb3-91b5-421d-b932-1da79af31438.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea11"
+  },
+  "name": "Glazed Donuts",
+  "price": 3.98,
+  "category": "bakery",
+  "imageUrl": "c6e3b347-6b0a-4070-9822-98619bc98f0e.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea12"
+  },
+  "name": "Cinnamon Toast Crunch",
+  "price": 3.64,
+  "category": "grains",
+  "imageUrl": "0e84bdb2-9e60-4f76-8a74-013342a40d8b.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea13"
+  },
+  "name": "Spaghetti",
+  "price": 1.38,
+  "category": "grains",
+  "imageUrl": "e7ce02ef-5cbc-4238-a191-d7c205047356.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea14"
+  },
+  "name": "Lasagne",
+  "price": 1.98,
+  "category": "grains",
+  "imageUrl": "3dae58ea-a7da-4767-9f05-1e9674b3c9ec.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea15"
+  },
+  "name": "Basmati Rice",
+  "price": 3.68,
+  "category": "grains",
+  "imageUrl": "9c4b8005-779f-43b2-af27-abb443f65ace.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea16"
+  },
+  "name": "Mini Wheats",
+  "price": 3.38,
+  "category": "grains",
+  "imageUrl": "023ac586-6fc2-41b0-b9c6-f743a59b9f0a.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea17"
+  },
+  "name": "Cinnamon Life",
+  "price": 2.77,
+  "category": "grains",
+  "imageUrl": "f86a295e-95ff-4eb0-b9eb-7bed685db268.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea18"
+  },
+  "name": "Blueberry Breakfast Bars",
+  "price": 4.24,
+  "category": "grains",
+  "imageUrl": "9d8e9cac-d5e3-4055-abe6-4808b3e87ba5.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea19"
+  },
+  "name": "Ketchup",
+  "price": 2.78,
+  "category": "condiments",
+  "imageUrl": "50d75232-f3a0-4216-9eee-8e1978df6325.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea1a"
+  },
+  "name": "Mustard",
+  "price": 1.38,
+  "category": "condiments",
+  "imageUrl": "8c0b7e19-50fb-467e-8ea3-0cbaf969bb2b.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea1b"
+  },
+  "name": "Mayonnaise",
+  "price": 3.48,
+  "category": "condiments",
+  "imageUrl": "c3208ef5-d255-4074-b9c7-3f0cc2b8c9ad.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea1c"
+  },
+  "name": "Chipotle Mayo",
+  "price": 2.74,
+  "category": "condiments",
+  "imageUrl": "79749a86-8492-43cb-8c11-e52702e32e99.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea1d"
+  },
+  "name": "Ranch Dressing",
+  "price": 2.96,
+  "category": "condiments",
+  "imageUrl": "c9eeed05-508c-40dc-982e-9d79f88f1b58.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea1e"
+  },
+  "name": "Sriracha",
+  "price": 2.48,
+  "category": "condiments",
+  "imageUrl": "6f21aa38-284d-45a5-926f-c8a7f83fb792.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea1f"
+  },
+  "name": "Dijon Mustard",
+  "price": 2.83,
+  "category": "condiments",
+  "imageUrl": "d6ca9048-77c9-41b8-8453-e8db14931e66.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea20"
+  },
+  "name": "Milk Chocolate Baking Chips",
+  "price": 1.88,
+  "category": "baking",
+  "imageUrl": "be4f7a49-54fc-4b32-b6eb-01c5bc17bfa1.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea21"
+  },
+  "name": "Cornbread Mix",
+  "price": 1.98,
+  "category": "baking",
+  "imageUrl": "356ba56d-20ea-4127-9b4f-b0cdd2a4d3be.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea22"
+  },
+  "name": "Chocolate Chip Muffin Mix",
+  "price": 2.18,
+  "category": "baking",
+  "imageUrl": "c7fa237d-f4d9-4ece-b752-6037e0d8eccc.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea23"
+  },
+  "name": "Baking Soda",
+  "price": 0.63,
+  "category": "baking",
+  "imageUrl": "523b76e2-e240-46d5-8797-16714a5afd2f.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea24"
+  },
+  "name": "Triple Fudge Brownie Mix",
+  "price": 1.88,
+  "category": "baking",
+  "imageUrl": "051d7381-912b-4ff1-86b0-6f022bb668f2.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea25"
+  },
+  "name": "Blueberry Muffin Mix",
+  "price": 1.84,
+  "category": "baking",
+  "imageUrl": "01c5ac51-fa73-4968-99d1-0779037d0063.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea26"
+  },
+  "name": "Sweet Pees",
+  "price": 1.14,
+  "category": "canned",
+  "imageUrl": "2a2a43e6-4b14-4fa1-b2bf-fa3d09e2988e.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea27"
+  },
+  "name": "Yams",
+  "price": 1.18,
+  "category": "canned",
+  "imageUrl": "7abe684b-823d-46ef-bd76-200b2213d8d7.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea28"
+  },
+  "name": "Sliced Beets",
+  "price": 1.14,
+  "category": "canned",
+  "imageUrl": "feb1f404-af99-473a-a0ce-b306c2caa7f8.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea29"
+  },
+  "name": "Whole Green Beans",
+  "price": 0.78,
+  "category": "canned",
+  "imageUrl": "e836a3ae-4c3b-44b1-8ee6-57a056411fdd.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea2a"
+  },
+  "name": "Chipotle Peppers",
+  "price": 1.38,
+  "category": "canned",
+  "imageUrl": "ce733364-cf04-4838-88be-c26b04bb68b9.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea2b"
+  },
+  "name": "Jalapeno Peppers",
+  "price": 2.16,
+  "category": "canned",
+  "imageUrl": "b5db6cab-79a7-49b8-994a-a800e4a5d78b.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea2c"
+  },
+  "name": "Asparagus Spears",
+  "price": 2.98,
+  "category": "canned",
+  "imageUrl": "c2585c63-d898-4cfa-a7e5-c92a7e2bd5a9.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea2d"
+  },
+  "name": "Sun-Dried Tomatoes",
+  "price": 3.94,
+  "category": "canned",
+  "imageUrl": "9cc92cad-fbc7-4713-b11f-a010074b40d9.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea2e"
+  },
+  "name": "Half & Half",
+  "price": 2.98,
+  "category": "canned",
+  "imageUrl": "732f8632-6b97-4b94-ac5b-8226a9635711.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea2f"
+  },
+  "name": "String Cheese",
+  "price": 2.96,
+  "category": "dairy",
+  "imageUrl": "85f20a79-0dce-4299-be60-c8fef4d5e7d8.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea30"
+  },
+  "name": "Cottage Cheese",
+  "price": 2.12,
+  "category": "dairy",
+  "imageUrl": "ec0ca1f2-6dbd-41ca-8dd6-1bde48fc1875.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea31"
+  },
+  "name": "Plain Yogurt",
+  "price": 4.58,
+  "category": "dairy",
+  "imageUrl": "8bebe4b0-5dfe-48db-939a-00047d4e5927.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea32"
+  },
+  "name": "Mild Cheddar Slices",
+  "price": 2.68,
+  "category": "dairy",
+  "imageUrl": "8a950b83-9dab-4c26-9141-43990bf6e1a1.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea33"
+  },
+  "name": "Pepper Jack Slices",
+  "price": 2.68,
+  "category": "dairy",
+  "imageUrl": "bbb8e802-e045-46db-9a57-54caed8859a0.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea34"
+  },
+  "name": "Pineapple Greek Yogurt",
+  "price": 3.28,
+  "category": "dairy",
+  "imageUrl": "6b84934e-b1ba-4c38-b6da-42e1619ae478.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea35"
+  },
+  "name": "Parmesan & Romano Cheese",
+  "price": 3.98,
+  "category": "dairy",
+  "imageUrl": "901df774-094f-437c-abd6-f354823c2b6d.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea36"
+  },
+  "name": "Colby Jack Shredded Cheese",
+  "price": 4.58,
+  "category": "dairy",
+  "imageUrl": "007493dc-37c6-4f4c-9353-d604fd740009.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea37"
+  },
+  "name": "Cheez-It Crackers",
+  "price": 2.88,
+  "category": "candyAndSnacks",
+  "imageUrl": "02feb0a6-707c-4538-ae7c-2447ac85b03e.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea38"
+  },
+  "name": "Oreo Cookies",
+  "price": 2.98,
+  "category": "candyAndSnacks",
+  "imageUrl": "0a1ab3f0-0be8-477e-b3f0-3904bb56e600.jpg"
+},{
+  "_id": {
+    "$oid": "5f35d8981575d25efcbbea39"
+  },
+  "name": "Harvest Chedder Chips",
+  "price": 2.98,
+  "category": "candyAndSnacks",
+  "imageUrl": "05a99ef0-c7c8-4a3a-b22c-092f621f8a73.jpg"
+}]
